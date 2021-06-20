@@ -1,0 +1,15 @@
+{
+  "name": "Calculate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "func.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.7.0"
+  }
+}
