@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+    <div class="main">
+        <input v-model="number1" placeholder="Введите 1 число" type="text">
+        <input v-model="operator" type="text" placeholder="Арифметическое действие">
+        <input v-model="number2" type="text" placeholder="Введите 2 число">
+        <h5>Результат</h5>
+        <div class="result">{{ result }}</div>
+        <button class="btn btn-result" @click="operation">Рассчитать</button>
+        <button class="btn btn-reset" @click="clear">Очистить</button>
+    </div>
+</div>
+<script src="https://unpkg.com/vue"></script>
+<script src="script.js"></script>
+</body>
+</html>

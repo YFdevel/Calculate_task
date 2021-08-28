@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    width: 300px;
+    min-height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    outline: aquamarine;
+    border-radius: 10px;
+    margin: 20px auto 0;
+}
+
+.result {
+    width: 80%;
+    min-height: 40px;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+.btn {
+    width: 60%;
+    min-height: 40px;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin: 30px auto 0;
+    text-align: center;
+}
+.btn:hover{
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.btn:active{
+    color: red;
+    transform: scale(1.1);
+}
+.btn-reset {
+    width: 40%;
+}
+h5{
+    margin-left: auto;
+    margin-right: auto;
+}
